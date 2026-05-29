@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang='pt-BR'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Anti-Blefe Pro v4.0</title><link rel='stylesheet' href='style.css'></head>
+<body>
+<h1>🚨 Anti-Blefe Pro v4.0</h1>
+<div class='grid'>
+<div class='card'><h3>Semáforo</h3><div id='status'>🟢 VERDE</div></div>
+<div class='card'><h3>Poisson</h3><div id='poisson'>0%</div></div>
+<div class='card'><h3>Monte Carlo</h3><div id='mc'>0%</div></div>
+<div class='card'><h3>Anti-Blefe</h3><div id='ab'>0</div></div>
+</div>
+<button onclick='runScan()'>Executar Scanner</button>
+<h2>Ranking Diário</h2>
+<table><thead><tr><th>Jogo</th><th>Score</th></tr></thead><tbody id='ranking'></tbody></table>
+<script src='app.js'></script>
+</body></html>
